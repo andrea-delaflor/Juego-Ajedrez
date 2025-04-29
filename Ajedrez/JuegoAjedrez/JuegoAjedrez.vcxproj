@@ -135,6 +135,9 @@
     <ClInclude Include="src\Ficha.h" />
     <ClInclude Include="src\Tablero.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Debug\JuegoAjedrez.exe" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
