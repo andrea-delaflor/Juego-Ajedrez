@@ -141,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\x64\Debug\JuegoAjedrez.exe" />
+    <None Include="bin\JuegoAjedrez.exe" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
