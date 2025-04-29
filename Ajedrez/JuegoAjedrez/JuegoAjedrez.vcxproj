@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bin\bin.cpp" />
+    <ClCompile Include="bin\fuentes\Source.cpp" />
+    <ClCompile Include="bin\imágenes\Source.cpp" />
+    <ClCompile Include="bin\sonidos\Source.cpp" />
     <ClCompile Include="JuegoAjedrez.cpp" />
     <ClCompile Include="lib\lib.cpp" />
     <ClCompile Include="src\Ficha.cpp" />
