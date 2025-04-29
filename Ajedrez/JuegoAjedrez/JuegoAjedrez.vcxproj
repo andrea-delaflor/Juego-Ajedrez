@@ -141,6 +141,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\x64\Debug\JuegoAjedrez.exe" />
+    <None Include="bin\ETSIDI.dll" />
+    <None Include="bin\fmodL.dll" />
+    <None Include="bin\freeglut.dll" />
     <None Include="bin\JuegoAjedrez.exe" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
