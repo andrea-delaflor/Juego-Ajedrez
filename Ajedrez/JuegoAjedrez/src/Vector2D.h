@@ -4,9 +4,9 @@
 //Utilizadades de la clase Vector 2D en nuestro ajedrez
 //1.Representar la posición de las piezas en el tablero mediante un par de números reales (x, y).
 //2.Facilitar los cálculos relacionados con el movimiento de las piezas, por ejemplo :
-//3.Distancia entre dos posiciones(usando modulo()).
-//4.Dirección de un movimiento(usando unitario()).
-//5.Verificar movimientos legales o trayectorias(con suma, resta, y producto escalar)
+//2.1.Distancia entre dos posiciones(usando modulo()).
+//2.2.Dirección de un movimiento(usando unitario()).
+//2.3.Verificar movimientos legales o trayectorias(con suma, resta, y producto escalar)
 struct Vector2D
 {
 	double x{};
