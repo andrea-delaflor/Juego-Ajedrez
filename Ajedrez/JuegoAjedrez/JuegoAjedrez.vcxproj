@@ -133,6 +133,8 @@
     <ClCompile Include="src\Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="lib\ETSIDI.h" />
+    <ClInclude Include="lib\freeglut.h" />
     <ClInclude Include="src\Ficha.h" />
     <ClInclude Include="src\Tablero.h" />
     <ClInclude Include="src\Vector2D.h" />
@@ -143,6 +145,10 @@
     <None Include="bin\fmodL.dll" />
     <None Include="bin\freeglut.dll" />
     <None Include="bin\JuegoAjedrez.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\ETSIDI.lib" />
+    <Library Include="lib\freeglut.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
