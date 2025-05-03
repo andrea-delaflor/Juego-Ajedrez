@@ -139,12 +139,6 @@
     <ClInclude Include="src\Tablero.h" />
     <ClInclude Include="src\Vector2D.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\ETSIDI.dll" />
-    <None Include="bin\fmodL.dll" />
-    <None Include="bin\freeglut.dll" />
-    <None Include="bin\JuegoAjedrez.exe" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

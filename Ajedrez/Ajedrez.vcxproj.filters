@@ -45,10 +45,4 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\ETSIDI.dll" />
-    <None Include="bin\fmodL.dll" />
-    <None Include="bin\freeglut.dll" />
-    <None Include="bin\JuegoAjedrez.exe" />
-  </ItemGroup>
 </Project>
