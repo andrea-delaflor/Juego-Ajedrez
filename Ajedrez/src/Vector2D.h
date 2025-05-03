@@ -7,6 +7,8 @@
 //2.1.Distancia entre dos posiciones(usando modulo()).
 //2.2.Dirección de un movimiento(usando unitario()).
 //2.3.Verificar movimientos legales o trayectorias(con suma, resta, y producto escalar)
+//PRUEBA 1
+
 struct Vector2D
 {
 	double x{};
