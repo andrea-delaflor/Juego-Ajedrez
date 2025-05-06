@@ -131,7 +131,7 @@
     <ClCompile Include="src\JuegoAjedrez.cpp" />
     <ClCompile Include="src\Mundo.cpp" />
     <ClCompile Include="src\Reina.cpp" />
-    <ClCompile Include="src\rey.cpp" />
+    <ClCompile Include="src\Rey.cpp" />
     <ClCompile Include="src\Tablero.cpp" />
     <ClCompile Include="src\Vector2D.cpp" />
   </ItemGroup>
@@ -139,7 +139,7 @@
     <ClInclude Include="src\Ficha.h" />
     <ClInclude Include="src\Mundo.h" />
     <ClInclude Include="src\Reina.h" />
-    <ClInclude Include="src\rey.h" />
+    <ClInclude Include="src\Rey.h" />
     <ClInclude Include="src\Tablero.h" />
     <ClInclude Include="src\Vector2D.h" />
   </ItemGroup>
