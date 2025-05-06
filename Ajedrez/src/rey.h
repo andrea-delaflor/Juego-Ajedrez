@@ -1,5 +1,5 @@
 #pragma once
-class rey
+class Rey
 {
 };
 
