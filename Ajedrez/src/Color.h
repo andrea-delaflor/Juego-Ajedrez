@@ -1,6 +1,5 @@
 #pragma once
-class Caballo
+class Color
 {
-
 };
 

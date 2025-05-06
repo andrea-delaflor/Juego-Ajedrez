@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="src\Alfil.cpp" />
     <ClCompile Include="src\Caballo.cpp" />
+    <ClCompile Include="src\Color.cpp" />
     <ClCompile Include="src\Fichas.cpp" />
     <ClCompile Include="src\JuegoAjedrez.cpp" />
     <ClCompile Include="src\Mundo.cpp" />
@@ -142,6 +143,7 @@
   <ItemGroup>
     <ClInclude Include="src\Alfil.h" />
     <ClInclude Include="src\Caballo.h" />
+    <ClInclude Include="src\Color.h" />
     <ClInclude Include="src\Fichas.h" />
     <ClInclude Include="src\Mundo.h" />
     <ClInclude Include="src\Peon.h" />
