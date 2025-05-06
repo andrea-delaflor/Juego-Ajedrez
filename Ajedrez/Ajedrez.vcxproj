@@ -131,6 +131,7 @@
     <ClCompile Include="src\Fichas.cpp" />
     <ClCompile Include="src\JuegoAjedrez.cpp" />
     <ClCompile Include="src\Mundo.cpp" />
+    <ClCompile Include="src\Peon.cpp" />
     <ClCompile Include="src\Reina.cpp" />
     <ClCompile Include="src\Rey.cpp" />
     <ClCompile Include="src\Tablero.cpp" />
@@ -141,6 +142,7 @@
     <ClInclude Include="src\Alfil.h" />
     <ClInclude Include="src\Fichas.h" />
     <ClInclude Include="src\Mundo.h" />
+    <ClInclude Include="src\Peon.h" />
     <ClInclude Include="src\Reina.h" />
     <ClInclude Include="src\Rey.h" />
     <ClInclude Include="src\Tablero.h" />
