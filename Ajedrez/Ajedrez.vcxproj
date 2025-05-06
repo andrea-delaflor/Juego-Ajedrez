@@ -127,7 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Ficha.cpp" />
+    <ClCompile Include="src\Alfil.cpp" />
+    <ClCompile Include="src\Fichas.cpp" />
     <ClCompile Include="src\JuegoAjedrez.cpp" />
     <ClCompile Include="src\Mundo.cpp" />
     <ClCompile Include="src\Reina.cpp" />
@@ -136,7 +137,8 @@
     <ClCompile Include="src\Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Ficha.h" />
+    <ClInclude Include="src\Alfil.h" />
+    <ClInclude Include="src\Fichas.h" />
     <ClInclude Include="src\Mundo.h" />
     <ClInclude Include="src\Reina.h" />
     <ClInclude Include="src\Rey.h" />
