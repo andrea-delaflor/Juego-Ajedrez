@@ -39,4 +39,8 @@ public:
 	bool ok_piezacomida() {
 		return piezacomida;
 	}
+
+	bool casilla_correcta() {
+
+	}
 };
