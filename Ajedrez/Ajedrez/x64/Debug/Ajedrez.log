@@ -1,10 +1,55 @@
-﻿  Fichas.cpp
-  JuegoAjedrez.cpp
+﻿  Alfil.cpp
+  Caballo.cpp
+  Color.cpp
+  Fichas.cpp
 C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Fichas.cpp(1,10): error C1083: No se puede abrir el archivo incluir: 'Ficha.h': No such file or directory
+  JuegoAjedrez.cpp
   Mundo.cpp
 C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Mundo.cpp(10,5): error C2065: 'x_ojo': identificador no declarado
 C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Mundo.cpp(11,5): error C2065: 'y_ojo': identificador no declarado
 C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Mundo.cpp(12,5): error C2065: 'z_ojo': identificador no declarado
   Peon.cpp
+  Reina.cpp
+  Rey.cpp
+  Tablero.cpp
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(7,20): error C2504: 'Pieza': clase base sin definir
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(12,17): error C3646: 'sprite': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(12,23): error C2059: error de sintaxis: '{'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(12,23): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(13,17): error C3646: 'sprite': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(13,23): error C2059: error de sintaxis: '{'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(13,23): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(37,10): error C2065: 'pos_pieza': identificador no declarado
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Peon.cpp(9,2): error C2065: 'pos_pieza': identificador no declarado
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Peon.cpp(10,2): error C2065: 'pos_pieza': identificador no declarado
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Peon.cpp(24,6): error C2059: error de sintaxis: ')'
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Peon.cpp(36,12): error C2084: la función 'bool Peon::casilla_correcta(void)' ya tiene un cuerpo
+      C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\peon.h(43,7):
+      vea la definición anterior de “Peon::casilla_correcta”
+  
+  Torre.cpp
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Torre.h(5,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Torre.h(26,10): error C2065: 'pos_pieza': identificador no declarado
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\carlo\source\repos\Juego-Ajedrez\Ajedrez\src\Torre.cpp(3,10): error C1083: No se puede abrir el archivo incluir: 'freeglut': No such file or directory
   Vector2D.cpp
   Generando código...
