@@ -3,7 +3,7 @@
 #include "vector2D.h"
 #include "ETSIDI.h"
 #include "fichas.h"
-class Alfil:public Pieza //Declaras la clase Alfil, que hereda de la clase abstracta Pieza. Así reutilizas todo el comportamiento común de las piezas.
+class Alfil:public Ficha //Declaras la clase Alfil, que hereda de la clase abstracta Pieza. Así reutilizas todo el comportamiento común de las piezas.
 {
 private:
 	bool color;//indica el color de la pieza FALSE= NEGRO Y TRUE=BLANCO 
