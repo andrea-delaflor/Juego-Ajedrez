@@ -1,6 +1,7 @@
 #pragma once
 #include "vector2D.h"
 #include "vector"
+#include "ETSIDI.h"
 
 #include "fichas.h"
 
@@ -9,8 +10,8 @@ class Peon: public Pieza        //peon se hereda de pieza
 private:
 	bool color; // FALSO NEGRO   TRUE BLANCO
 	bool piezacomida;   //devuelve 1 o 0
-	SpriteSequence sprite{ "meterdireecion imagen", 1 };  //para blanco 
-	SpriteSequence sprite{ "meterdirecciondelaimagen", 1 };   //para negro
+	ETSIDI::SpriteSequence sprite{ "meterdireecion imagen", 1 };  //para blanco 
+	ETSIDI::SpriteSequence sprite{ "meterdirecciondelaimagen", 1 };   //para negro
 
 public:
 
