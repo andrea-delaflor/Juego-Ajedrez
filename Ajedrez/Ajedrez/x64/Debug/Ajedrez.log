@@ -1,5 +1,6 @@
 ﻿  Alfil.cpp
   Fichas.cpp
+  JuegoAjedrez.cpp
 C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Alfil.h(28,10): error C2065: 'pos_pieza': identificador no declarado
   (compilando archivo de origen "src/Alfil.cpp")
   
@@ -24,7 +25,6 @@ C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezG
 C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Alfil.cpp(24,2): error C3861: 'íf': no se encontró el identificador
 C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Alfil.cpp(25,3): error C2146: error de sintaxis: falta ';' delante del identificador 'sprite'
 C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.cpp(1,10): error C1083: No se puede abrir el archivo incluir: 'Ficha.h': No such file or directory
-  JuegoAjedrez.cpp
   Mundo.cpp
 C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.cpp(10,5): error C2065: 'x_ojo': identificador no declarado
 C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.cpp(11,5): error C2065: 'y_ojo': identificador no declarado
@@ -48,16 +48,14 @@ C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezG
   
   Reina.cpp
   Tablero.cpp
-C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(10,15): error C2039: "dibuja": no es un miembro de "Tablero"
-      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.h(8,7):
-      vea la declaración de 'Tablero'
-  
-C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(18,15): error C2039: "inicializa": no es un miembro de "Tablero"
-      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.h(8,7):
-      vea la declaración de 'Tablero'
-  
-C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(20,5): error C2065: 'Tipo_juego': identificador no declarado
-C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(22,5): error C2065: 'matriz': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(28,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(29,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(30,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(31,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(51,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(52,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(53,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(54,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
   Torre.cpp
 C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(5,20): error C2504: 'Fichas': clase base sin definir
   (compilando archivo de origen "src/Torre.cpp")

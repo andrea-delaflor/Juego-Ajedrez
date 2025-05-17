@@ -8,13 +8,12 @@
 class Tablero
 {
 public:
-    Vector2D coordenadas{};
-    Vector2D casilla;
-    ETSIDI::SpriteSequence fondo1{ "imagenes/4x5.png",1 };
+    Vector2D coordenadas{ -10.0, -7.5 };// origen en el que empezar a dibujar (esquina inferior izquiera del tablero
+    Vector2D casilla{ 5.0, 3.0 };// tamaño de cada casilla(ancho ,alto)
+   // ETSIDI::SpriteSequence fondo1{ "imagenes/4x5.png",1 };
 public:
     Tablero() {
-        fondo1.setCenter(0, 0);
-        fondo1.setSize(10, 10);
+        
     }
     void dibuja_tablero(int c, int f);
     void dibuja_cuadrado_blanco(double i, double j);
