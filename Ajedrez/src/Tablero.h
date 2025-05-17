@@ -1,27 +1,23 @@
 #pragma once
 #include "Vector2D.h"
+#include "ETSIDI.h"
+#include <vector>
 
 
-struct CASILLA
-{   
-    // Parámetros gráficos de casilla 
-    int vx;
-    int vy;
-    int colR, colG, colB;
-};
 
 class Tablero
 {
-private:
-
-    int Tipo_juego, Tipo_oponente; // Tipo de juego al que vamos a jugar y tipo de oponente (jugador o maquina) que vamos a enfrentar
-
-    CASILLA Mcasillas[5][4];  // Para parte GRÁFICA -> Indica posición filasxcolumnas
-    Vector2D PosEnCasillas[5][4];  // Para parte GRÁFICA -> Indica posición del centro de las casilas
-    // i = FILAS , j = COLUMNAS         [filas][columnas] 
 public:
-    void inicializa(const int& TJ); //Aqui inicializamos el tipo de juego (4×5 con un único peón o Speed Chess )
-    void dibuja();
-
+    Vector2D coordenadas{};
+    Vector2D casilla;
+    ETSIDI::SpriteSequence fondo1{ "imagenes/4x5.png",1 };
+public:
+    Tablero() {
+        fondo1.setCenter(0, 0);
+        fondo1.setSize(10, 10);
+    }
+    void dibuja_tablero(int c, int f);
+    void dibuja_cuadrado_blanco(double i, double j);
+    void dibuja_cuadrado_negro(double i, double j);
 };
       

@@ -18,4 +18,6 @@ void Tablero::dibuja()
 void Tablero::inicializa(const int& TJ)
 {
     Tipo_juego = TJ;
+    // Inicializar matriz lógica 4×5
+    matriz.assign(4, std::vector<int>(5, 0));
 }
