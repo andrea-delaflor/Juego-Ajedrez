@@ -1,49 +1,63 @@
 // JuegoAjedrez.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //comprobación librería freeGlut
 
+// JuegoAjedrez.cpp
 #include "Tablero.h"
 #include "freeglut.h"
 #include "ETSIDI.h"
+
+// Prototipo de tu callback
 void OnDraw(void);
+
+// Instancia global de Tablero
 Tablero tablero;
 
-
-
 int main(int argc, char** argv) {
-	//Inicializar el gestor de ventanas GLUT
-	//y crear la ventana
-	glutInit(&argc, argv);
-	glutInitWindowSize(800, 600);
-	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
-	glutCreateWindow("MiJuego");
+    // 1) Inicializar GLUT y crear ventana
+    glutInit(&argc, argv);
+    glutInitWindowSize(800, 600);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
+    glutCreateWindow("MiJuego");
 
-	//habilitar luces y definir perspectiva
-	glEnable(GL_LIGHT0);
-	glEnable(GL_LIGHTING);
-	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_COLOR_MATERIAL);
-	glMatrixMode(GL_PROJECTION);
-	gluPerspective(40.0, 800 / 600.0f, 0.1, 150);
-	glutDisplayFunc(OnDraw);
+    // 2) Habilitar test de profundidad y luces
+    glEnable(GL_DEPTH_TEST);
+    glEnable(GL_LIGHTING);
+    glEnable(GL_LIGHT0);
+    glEnable(GL_COLOR_MATERIAL);
 
-	glutMainLoop();
+    // 3) Definir perspectiva (matriz de proyección)
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    gluPerspective(
+        40.0,            // FOV vertical en grados
+        800.0f / 600.0f,   // aspect ratio
+        0.1,             // near
+        150.0            // far
+    );
+
+    // 4) Registrar callback de dibujo
+    glutDisplayFunc(OnDraw);
+    // (opcional si quieres animar) glutIdleFunc(OnDraw);
+
+    // 5) Entrar en el bucle principal
+    glutMainLoop();
     return 0;
 }
 
+void OnDraw(void) {
+    // 1) Limpiar buffers
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+    // 2) Preparar modelo/vista
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
 
+    // 3) Alejar la cámara para ver el tablero en Z=0
+    glTranslatef(0.0f, 0.0f, -30.0f);
 
-void OnDraw(void)
-{
-	//Borrado de la pantalla	
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    // 4) Dibujar el tablero 4×5
+    tablero.dibuja_tablero(4, 5);
 
-	//Para definir el punto de vista
-	glMatrixMode(GL_MODELVIEW);
-	glLoadIdentity();
-
-	tablero.dibuja_tablero(4, 5);
-
-	//no borrar esta linea ni poner nada despues
-	glutSwapBuffers();
+    // 5) Intercambiar buffers
+    glutSwapBuffers();
 }
