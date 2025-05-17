@@ -4,16 +4,10 @@
 #include "Tablero.h"
 #include "freeglut.h"
 #include "ETSIDI.h"
-
+void OnDraw(void);
 Tablero tablero;
 
-void display() {
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-	// Dibuja un 4×5 en pantalla
-	tablero.dibuja_tablero(4, 5);
-	glutSwapBuffers();
-}
 
 int main(int argc, char** argv) {
 	//Inicializar el gestor de ventanas GLUT
@@ -30,9 +24,7 @@ int main(int argc, char** argv) {
 	glEnable(GL_COLOR_MATERIAL);
 	glMatrixMode(GL_PROJECTION);
 	gluPerspective(40.0, 800 / 600.0f, 0.1, 150);
-	glutDisplayFunc(display);
-
-	glutIdleFunc(display);
+	glutDisplayFunc(OnDraw);
 
 	glutMainLoop();
     return 0;
@@ -41,3 +33,17 @@ int main(int argc, char** argv) {
 
 
 
+void OnDraw(void)
+{
+	//Borrado de la pantalla	
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	//Para definir el punto de vista
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity();
+
+	tablero.dibuja_tablero(4, 5);
+
+	//no borrar esta linea ni poner nada despues
+	glutSwapBuffers();
+}

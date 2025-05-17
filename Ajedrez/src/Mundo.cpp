@@ -1,4 +1,4 @@
-#include "Mundo.h"
+/*#include "Mundo.h"
 #include "freeglut.h"
 #include <iostream>
 #include <cmath>
@@ -11,4 +11,4 @@ void Mundo::inicializa() {
     y_ojo = 0.0;
     z_ojo = 0.0;
 
-}
+}*/

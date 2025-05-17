@@ -1,4 +1,4 @@
-#include "peon.h"
+/*#include "peon.h"
 #include "mundo.h" 
 #include "fichas.h"
 #include "freeglut.h"
@@ -36,4 +36,4 @@ void Peon::set_color_pieza(bool c)
 bool Peon::casilla_correcta()
 {
 
-}
+}*/

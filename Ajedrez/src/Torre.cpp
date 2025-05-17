@@ -1,4 +1,4 @@
-#include "Torre.h"
+/*#include "Torre.h"
 #include "ETSIDI.h"
 #include "freeglut"
 #include "Fichas.h"
@@ -24,4 +24,4 @@ void Torre::set_color_pieza(bool c)
 }
 //falta la lógica de la torre con el std
 //ver que es lo de piezaahogada y casilla valida
-
+*/

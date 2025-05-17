@@ -1,4 +1,4 @@
-#include "Alfil.h"
+/*#include "Alfil.h"
 #include "freeglut.h"
 #include<ETSIDI.h>
 #include<stdio.h>
@@ -36,5 +36,5 @@ void Alfil::set_color_pieza(bool a)
 }
 
 
-
+*/
 

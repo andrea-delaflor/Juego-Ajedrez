@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 #include "vector2D.h"
 #include "vector"
 #include "ETSIDI.h"
@@ -45,3 +45,4 @@ public:
 
 	}
 };
+*/
