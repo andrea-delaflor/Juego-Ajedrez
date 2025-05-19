@@ -138,6 +138,7 @@
     <ClCompile Include="src\Color.cpp" />
     <ClCompile Include="src\Fichas.cpp" />
     <ClCompile Include="src\JuegoAjedrez.cpp" />
+    <ClCompile Include="src\Menu.cpp" />
     <ClCompile Include="src\Mundo.cpp" />
     <ClCompile Include="src\Peon.cpp" />
     <ClCompile Include="src\Reina.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="src\Caballo.h" />
     <ClInclude Include="src\Color.h" />
     <ClInclude Include="src\Fichas.h" />
+    <ClInclude Include="src\Menu.h" />
     <ClInclude Include="src\Mundo.h" />
     <ClInclude Include="src\Peon.h" />
     <ClInclude Include="src\Reina.h" />
