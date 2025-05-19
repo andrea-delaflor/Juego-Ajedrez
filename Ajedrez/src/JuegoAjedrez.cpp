@@ -2,15 +2,14 @@
 //comprobación librería freeGlut
 
 // JuegoAjedrez.cpp
-#include "Tablero.h"
+#include "Mundo.h"
 #include "freeglut.h"
 #include "ETSIDI.h"
 
 // Prototipo de tu callback
 void OnDraw(void);
 
-// Instancia global de Tablero
-Tablero tablero;
+Mundo mundo;
 
 int main(int argc, char** argv) {
     // 1) Inicializar GLUT y crear ventana
@@ -55,8 +54,13 @@ void OnDraw(void) {
     // 3) Alejar la cámara para ver el tablero en Z=0
     glTranslatef(0.0f, 0.0f, -30.0f);
 
-    // 4) Dibujar el tablero 4×5
-    tablero.dibuja_tablero(4, 5);
+    mundo.inicializa();
+    //añadir menus
+    // 
+    // 
+   //usar mundo en funcion del menu seria
+    mundo.inicializa_4x5();
+    mundo.inicializa_speedchess();
 
     // 5) Intercambiar buffers
     glutSwapBuffers();
