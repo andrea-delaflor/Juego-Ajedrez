@@ -28,13 +28,13 @@ void Mundo::inicializa_4x5() {
     columnas = 4;
     filas = 5;
 
-    tablero.dibuja_tablero(4, 5);
+    tablero.dibuja_tablero(columnas, filas);
 }
 
 void Mundo::inicializa_speedchess() {
     columnas = 5;
     filas = 6;
 
-    tablero.dibuja_tablero(5, 6);
+    tablero.dibuja_tablero(columnas, filas);
 
 }
