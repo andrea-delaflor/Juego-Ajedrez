@@ -45,7 +45,7 @@ void Menu::dibuja_menu() {
 	{
 		glEnable(GL_TEXTURE_2D);
 		glBindTexture(GL_TEXTURE_2D,
-			ETSIDI::getTexture("imagenes/vicblancas.png").id);
+			ETSIDI::getTexture("imagenes/victoriablancas.png").id);
 		glDisable(GL_LIGHTING);
 		glBegin(GL_POLYGON);
 		glColor3f(1, 1, 1);
@@ -61,7 +61,7 @@ void Menu::dibuja_menu() {
 	{
 		glEnable(GL_TEXTURE_2D);
 		glBindTexture(GL_TEXTURE_2D,
-			ETSIDI::getTexture("imagenes/vicnegras.png").id);
+			ETSIDI::getTexture("imagenes/victorianegras.png").id);
 		glDisable(GL_LIGHTING);
 		glBegin(GL_POLYGON);
 		glColor3f(1, 1, 1);
