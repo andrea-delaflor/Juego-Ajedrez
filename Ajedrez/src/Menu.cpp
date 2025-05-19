@@ -12,7 +12,7 @@ void Menu::dibuja_menu() {
 
 		glEnable(GL_TEXTURE_2D);
 		glBindTexture(GL_TEXTURE_2D,
-			ETSIDI::getTexture("imagenes/menu1.png").id);
+			ETSIDI::getTexture("imagenes/menugame.png").id);
 		glDisable(GL_LIGHTING);
 		glBegin(GL_POLYGON);
 		glColor3f(1, 1, 1);
@@ -29,7 +29,7 @@ void Menu::dibuja_menu() {
 	{
 		glEnable(GL_TEXTURE_2D);
 		glBindTexture(GL_TEXTURE_2D,
-			ETSIDI::getTexture("imagenes/menu2.png").id);
+			ETSIDI::getTexture("imagenes/menuplayer.png").id);
 		glDisable(GL_LIGHTING);
 		glBegin(GL_POLYGON);
 		glColor3f(1, 1, 1);

@@ -29,4 +29,4 @@ public:
 	// casilla valida creo que son las casillas que son posibles movimientos teniendo en cuenta como se mueve la ficha
 	//ver tambien la lógica de de la eliminacion de piezas: como se come una pieza la torre
 };
-*/
+

@@ -1,1 +1,1 @@
-/*#include "Ficha.h"*/
+#include "Fichas.h"
