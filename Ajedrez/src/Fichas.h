@@ -30,7 +30,11 @@ public:
 		return posicion_ficha;
 	}
 
-	virtual bool piezaAhogada(std::vector <Vector2D> posiciones)
+	//situación en la que el jugador al que le toca mover no tiene ningún movimiento legal y su rey no está en jaque
+	//El jugador no está en jaque, pero no puede mover ninguna de sus piezas sin poner a su rey en jaque(lo cual no está permitido),
+	//Por lo tanto, el juego termina automáticamente en tablas (empate).
+
+	virtual bool FichaAhogada(std::vector <Vector2D> posiciones)
 	{
 		if (posiciones.size() == 0)
 			return true;
