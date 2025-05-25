@@ -72,6 +72,22 @@ std::vector<Vector2D> Caballo::get_movimientos_validos(std::vector<std::vector <
     return posiciones;
 }
 
+//revisar como queremos comprobar el movimiento para relacionarlo con el movimiento de las teclas, del rato o como
+/*
+ //una opcion
+ Fichas.h
+ Vector2D posicion_ficha;
+posicion_ficha.x = origen.x + casilla.x * tileSize;
+posicion_ficha.y = origen.y + casilla.y * tileSize;
+
+- tamaño fijo en píxeles, que sería el ancho de la casilla, tileSize
+- El tablero empieza a dibujarse desde un origen, depende de como lo hagamos si lo queremos hacer pos casillas seria ideal
+
+void Caballo::actualizar_posicion_grafica(int tileSize, const Vector2D& origen)
+{
+    posicion_ficha.x = origen.x + casilla.x * tileSize;
+    posicion_ficha.y = origen.y + casilla.y * tileSize;
+}*/
 
 void Caballo::set_pos_ficha(const Vector2D& pos)
 {
