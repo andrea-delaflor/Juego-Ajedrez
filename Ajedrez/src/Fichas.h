@@ -42,7 +42,7 @@ public:
 			return false;
 	}
 
-	virtual bool casillaValida(int i, int j, std::vector <Fichas*> control) //puntero para apuntar a las fichas
+	virtual bool casillaValida(int i, int j, std::vector<std::vector<Fichas*>> control) //puntero para apuntar a las fichas
 	{																	    // Para que no se salga del tamaño de la matriz control al comprobar si es jaque o no
 		return false;
 	}
