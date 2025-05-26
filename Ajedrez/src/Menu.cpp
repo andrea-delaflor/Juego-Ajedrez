@@ -112,3 +112,66 @@ void Menu::dibuja_menu() {
 Menu::ModoJuego Menu::getModoSeleccionado() const {
 	return modo_seleccionado;
 }
+
+bool Menu::detectar_click(const Vector2D& pos) {
+
+	if (tipo_menu == TipoMenu::MENU_JUEGO) {
+		if (pos.x > -7.1 && pos.x < -2.1 && pos.y>0.8 && pos.y < 18) {
+			modo_seleccionado = ModoJuego::MODO_SPEEDCHESS;
+			tipo_menu = TipoMenu::MENU_JUEGO;
+			ETSIDI::play("sonido/Inicio.mp3");// Enter
+			return true;
+		}
+		if (pos.x > 2.2 && pos.x < 7.1 && pos.y>0.8 && pos.y < 18) {
+			ETSIDI::play("sonido/Inicio.mp3");// Enter
+			modo_seleccionado = ModoJuego::MODO_4x5;
+			tipo_menu = TipoMenu::MENU_JUEGO;
+			return true;
+		}
+	}
+	if (tipo_menu == TipoMenu::MENU_PLAYER) {
+
+		if (pos.x > -7.1 && pos.x < -2.1 && pos.y>0.8 && pos.y < 18) {
+			ETSIDI::play("sonido/Inicio.mp3");// Enter
+			formajuego = FormaJuego::FORMA_1V1;
+			return true;
+		}
+		if (pos.x > 2.2 && pos.x < 7.1 && pos.y>0.8 && pos.y < 18) {
+			ETSIDI::play("sonido/Inicio.mp3");// Enter
+			formajuego = FormaJuego::FORMA_IA;
+			return true;
+		}
+
+	}
+
+	//PODEMOS CAMBIAR MUSICA EN FUCION DE GANA UNO U OTROS Y DARSE A ESPACIO PARA SALIR A MENU DE INICIO Y ASI
+
+	if (tipo_menu == TipoMenu::MENU_VICTORIA_NEGRAS) {
+			ETSIDI::play("sonido/Inicio.mp3");// Enter
+	
+			return true;
+	}
+	if (tipo_menu == TipoMenu::MENU_VICTORIA_BLANCAS) {
+			ETSIDI::play("sonido/Inicio.mp3");// Enter
+
+			return true;
+		
+
+
+	}
+	if (tipo_menu == TipoMenu::MENU_TABLAS) {
+			ETSIDI::play("sonido/Inicio.mp3");// Enter
+			
+			return true;
+		
+		}
+
+
+
+
+
+
+	}
+
+	return false;
+}

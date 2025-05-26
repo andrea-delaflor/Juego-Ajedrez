@@ -32,6 +32,9 @@ public:
 
     Menu();//constructor por defecto
     void dibuja_menu();
+
+    bool detectar_click(const Vector2D& pos);
+    
     ModoJuego getModoSeleccionado() const;
 
 
