@@ -20,10 +20,25 @@ void Reina::set_pos_ficha(const Vector2D& pos)
 
 void Reina::dibuja_ficha()
 {
+	glPushMatrix();
+	glTranslated(posicion_ficha.x, posicion_ficha.y, 0.001);
+	if (color == 0)              //si la ficha es blanca o negra
+		sprite2.draw();
+	if (color == 1)
+		sprite.draw();
+
+	glPopMatrix();
+	glFlush();
 }
 
 void Reina::set_color_ficha(bool a)
 {
+
+	if (a == true)
+		color = true;
+	if (a == false)
+		color = false;
+
 }
 
 bool Reina::FichaAhogada(vector<Vector2D> posiciones)
