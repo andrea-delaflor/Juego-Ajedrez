@@ -51,9 +51,31 @@ void Peon::set_color_ficha(bool a)
 
 }
 
+//peon puede realizar tres movieminetos, hacia delante, diagonales para comerse ficha
+std::vector<Vector2D> Peon::get_movimientos_validos(std::vector<std::vector <Fichas*>> control, Vector2D pos, Vector2D reyPos) { // pos es la casilla que ocupa la torre en nuestra matriz de control
+	haComidoFicha = false; // por defecto no come pieza. En caso de que tenga la posibilidad de hacerlo, si valor cambiará a true
+	std::vector<Vector2D> posiciones; // se almacenan las posiciones de control de todas las piezas de color negro
+	// MOVIMIENTOS DEL PEON
+	if (casillaValida(pos.x, pos.y - 1, control)) { // se comprueba que no se salga del rango de la matriz
+		if (control[pos.x][pos.y - 1] == nullptr) {
+			posiciones.push_back({ static_cast<double>(pos.x), static_cast<double>(pos.y - 1) }); // se añade al vector las posiciones donde el peon puede moverse, hacia delante
+			//haComidoFicha = false;
+		}
+	}
+	if (casillaValida(pos.x + 1, pos.y - 1, control)) { // se comprueba que no se salga del rango de la matriz
+		if (control[pos.x + 1][pos.y - 1] != nullptr && control[pos.x + 1][pos.y - 1]->get_color() == true) { //come hacia diagonal derecha una pieza blanca
+			posiciones.push_back({ static_cast<double>(pos.x + 1), static_cast<double>(pos.y - 1) }); // se añade al vector las posiciones donde la torre puede moverse
+			haComidoFicha = true;
+		}
+	}
 
-std::vector<Vector2D> Caballo::get_movimientos_validos(std::vector<std::vector <Fichas*>> control, Vector2D pos, Vector2D reyPos) { // pos es la casilla que ocupa la torre en nuestra matriz de control
-    haComidoFicha = false; // por defecto no come pieza. En caso de que tenga la posibilidad de hacerlo, si valor cambiará a true
-    std::vector<Vector2D> posiciones; // se almacenan las posiciones de control de todas las piezas de color negro
-    // MOVIMIENTOS DEL PEON
+	if (casillaValida(pos.x - 1, pos.y - 1, control)) { // se comprueba que no se salga del rango de la matriz
+		if (control[pos.x - 1][pos.y - 1] != nullptr && control[pos.x - 1][pos.y - 1]->get_color() == true) { //come hacia diagonal izda una pieza blanca
+			posiciones.push_back({ static_cast<double>(pos.x - 1), static_cast<double>(pos.y - 1) }); // se añade al vector las posiciones donde la torre puede moverse
+			haComidoFicha = true;
+		}
+	}
+
+	return posiciones;
+}
 
