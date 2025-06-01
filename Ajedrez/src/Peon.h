@@ -15,10 +15,12 @@ public:
 
 	Peon()
 	{
-		//linea para colocar el peon
-		//liena para dar la altura al peon
-		//linea para colocar el peon 2
-		//liena para dar la altura al peon2
+		sprite.setCenter(+0.75, +0.75); //linea para colocar el peon
+		sprite.setSize(1.5, 1.5); //liena para dar la altura al peon
+		sprite2.setCenter(+0.75, +0.75); //linea para colocar el peon 2
+		sprite2.setSize(1.5, 1.5); //liena para dar la altura al peon2
+		color = true; // Blanco predeterminado
+		
 	
 	}
 	void mueveficha(double, double) override;
