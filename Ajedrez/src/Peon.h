@@ -1,17 +1,15 @@
-/*#pragma once
+#pragma once
 #include "vector2D.h"
 #include "vector"
 #include "ETSIDI.h"
-
 #include "fichas.h"
 
-class Peon: public Pieza        //peon se hereda de pieza
-{
+class Peon: public Fichas  {     //peon se hereda de pieza
 private:
-	bool color; // FALSO NEGRO   TRUE BLANCO
-	bool piezacomida;   //devuelve 1 o 0
-	ETSIDI::SpriteSequence sprite{ "meterdireecion imagen", 1 };  //para blanco 
-	ETSIDI::SpriteSequence sprite{ "meterdirecciondelaimagen", 1 };   //para negro
+	bool color; // FALSE es negro. TRUE es blanco
+	bool haComidoFicha;
+	ETSIDI::SpriteSequence sprite{ "imagenes/PEON BLANCO.png", 1 };
+	ETSIDI::SpriteSequence sprite2{ "imagenes/PEON NEGRO.png", 1 };
 
 public:
 
@@ -23,25 +21,27 @@ public:
 		//liena para dar la altura al peon2
 	
 	}
-
-	void muevepieza(double, double);
-	void dibuja_pieza();
-	void set_color_pieza(bool c);
-	bool get_color()
-	{
+	void mueveficha(double, double) override;
+	void set_pos_ficha(const Vector2D& pos) override;
+	void dibuja_ficha() override;
+	void set_color_ficha(bool a) override;
+	bool get_color() override {
 		return color;
 	}
 
-	void set_pos_pieza(const Vector2D& pos);
-	Vector2D get_pos()
-	{
-		return pos_pieza;
-	}
-	bool ok_piezacomida() {
-		return piezacomida;
+	bool get_haComidoFicha() override {
+		return haComidoFicha;
 	}
 
-	bool casilla_correcta() {
+	Vector2D get_pos() override {
+		return posicion_ficha;
+	}
+
+	bool FichaAhogada(std::vector<Vector2D> posiciones);
+
+	bool casillaValida(int i, int j, std::vector<std::vector<Fichas*>> control) override;  // Para que no se salga del tamaño de la matriz control al comprobar si es jaque o no
+
+	std::vector<Vector2D> get_movimientos_validos(std::vector<std::vector<Fichas*>> control, Vector2D pos, Vector2D reyPos) override;
 
 	}
 };
