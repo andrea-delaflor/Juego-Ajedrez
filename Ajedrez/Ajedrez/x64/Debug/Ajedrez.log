@@ -1,2 +1,1323 @@
-﻿  JuegoAjedrez.cpp
-  Ajedrez.vcxproj -> C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\x64\Debug\Ajedrez.exe
+﻿  Caballo.cpp
+  JuegoAjedrez.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7): error C2011: 'Fichas': nueva definición del tipo 'class'
+  (compilando archivo de origen "src/Caballo.cpp")
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(12,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(30,7): error C3668: 'Torre::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(31,7): error C3668: 'Torre::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(32,7): error C3668: 'Torre::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(33,7): error C3668: 'Torre::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(34,7): error C3668: 'Torre::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(35,7): error C3668: 'Torre::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,11): error C3668: 'Torre::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(39,24): error C3668: 'Torre::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(41,7): error C3668: 'Torre::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(10,22): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(27,7): error C3668: 'Reina::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(28,7): error C3668: 'Reina::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(29,7): error C3668: 'Reina::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(30,7): error C3668: 'Reina::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(31,7): error C3668: 'Reina::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(32,7): error C3668: 'Reina::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,11): error C3668: 'Reina::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(36,24): error C3668: 'Reina::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(38,7): error C3668: 'Reina::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,38): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(10,19): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(26,7): error C3668: 'Rey::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(27,7): error C3668: 'Rey::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(28,7): error C3668: 'Rey::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(29,7): error C3668: 'Rey::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(30,7): error C3668: 'Rey::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(31,7): error C3668: 'Rey::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,11): error C3668: 'Rey::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(35,24): error C3668: 'Rey::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(37,7): error C3668: 'Rey::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(7,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(26,7): error C3668: 'Peon::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(27,7): error C3668: 'Peon::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(28,7): error C3668: 'Peon::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(29,7): error C3668: 'Peon::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(30,7): error C3668: 'Peon::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(34,7): error C3668: 'Peon::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(38,11): error C3668: 'Peon::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(44,7): error C3668: 'Peon::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(46,24): error C3668: 'Peon::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2059: error de sintaxis: '}'
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(39,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,1): warning C4138: '*/' se encontró fuera del comentario
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,2): error C2059: error de sintaxis: '/'
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,8): error C3646: 'alfilB': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,14): error C2059: error de sintaxis: ','
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,22): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "src/Caballo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(10,5): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(11,5): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(33,52): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(33,41): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(34,39): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(34,50): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(37,44): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(37,55): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(37,88): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(37,99): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(37,102): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(42,52): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(42,41): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(43,39): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(43,50): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(46,44): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(46,55): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(46,88): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(46,99): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(46,102): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(51,52): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(51,41): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(52,39): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(52,50): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(55,44): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(55,55): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(55,88): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(55,99): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(55,102): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(60,52): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(60,41): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(61,39): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(61,50): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(64,44): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(64,55): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(64,88): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(64,99): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(64,102): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(94,9): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(100,18): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(100,36): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(100,5): error C2660: 'glTranslated': la función no acepta 2 argumentos
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1465,25):
+      vea la declaración de 'glTranslated'
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.cpp(100,5):
+      al hacer coincidir la lista de argumentos '()'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7): error C2011: 'Fichas': nueva definición del tipo 'class'
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(10,22): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(27,7): error C3668: 'Reina::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(28,7): error C3668: 'Reina::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(29,7): error C3668: 'Reina::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(30,7): error C3668: 'Reina::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(31,7): error C3668: 'Reina::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(32,7): error C3668: 'Reina::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,11): error C3668: 'Reina::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(36,24): error C3668: 'Reina::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(38,7): error C3668: 'Reina::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,38): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(10,19): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(26,7): error C3668: 'Rey::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(27,7): error C3668: 'Rey::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(28,7): error C3668: 'Rey::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(29,7): error C3668: 'Rey::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(30,7): error C3668: 'Rey::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(31,7): error C3668: 'Rey::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,11): error C3668: 'Rey::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(35,24): error C3668: 'Rey::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(37,7): error C3668: 'Rey::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(7,24): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(23,7): error C3668: 'Caballo::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(24,7): error C3668: 'Caballo::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(25,7): error C3668: 'Caballo::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(26,7): error C3668: 'Caballo::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(27,7): error C3668: 'Caballo::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(31,7): error C3668: 'Caballo::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(35,11): error C3668: 'Caballo::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(41,7): error C3668: 'Caballo::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(43,24): error C3668: 'Caballo::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(36,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(7,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(26,7): error C3668: 'Peon::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(27,7): error C3668: 'Peon::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(28,7): error C3668: 'Peon::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(29,7): error C3668: 'Peon::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(30,7): error C3668: 'Peon::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(34,7): error C3668: 'Peon::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(38,11): error C3668: 'Peon::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(44,7): error C3668: 'Peon::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(46,24): error C3668: 'Peon::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2059: error de sintaxis: '}'
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(39,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,1): warning C4138: '*/' se encontró fuera del comentario
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,2): error C2059: error de sintaxis: '/'
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,8): error C3646: 'alfilB': especificador de invalidación desconocido
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,14): error C2059: error de sintaxis: ','
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,22): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "src/JuegoAjedrez.cpp")
+  
+  Menu.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Menu.cpp(176,2): error C2059: error de sintaxis: 'return'
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Menu.cpp(177,1): error C2059: error de sintaxis: '}'
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Menu.cpp(177,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  Mundo.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7): error C2011: 'Fichas': nueva definición del tipo 'class'
+  (compilando archivo de origen "src/Mundo.cpp")
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(10,22): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(27,7): error C3668: 'Reina::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(28,7): error C3668: 'Reina::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(29,7): error C3668: 'Reina::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(30,7): error C3668: 'Reina::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(31,7): error C3668: 'Reina::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(32,7): error C3668: 'Reina::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,11): error C3668: 'Reina::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(36,24): error C3668: 'Reina::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(38,7): error C3668: 'Reina::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,38): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(10,19): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(26,7): error C3668: 'Rey::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(27,7): error C3668: 'Rey::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(28,7): error C3668: 'Rey::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(29,7): error C3668: 'Rey::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(30,7): error C3668: 'Rey::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(31,7): error C3668: 'Rey::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,11): error C3668: 'Rey::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(35,24): error C3668: 'Rey::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(37,7): error C3668: 'Rey::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(7,24): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(23,7): error C3668: 'Caballo::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(24,7): error C3668: 'Caballo::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(25,7): error C3668: 'Caballo::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(26,7): error C3668: 'Caballo::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(27,7): error C3668: 'Caballo::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(31,7): error C3668: 'Caballo::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(35,11): error C3668: 'Caballo::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(41,7): error C3668: 'Caballo::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(43,24): error C3668: 'Caballo::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(36,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(7,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(26,7): error C3668: 'Peon::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(27,7): error C3668: 'Peon::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(28,7): error C3668: 'Peon::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(29,7): error C3668: 'Peon::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(30,7): error C3668: 'Peon::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(34,7): error C3668: 'Peon::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(38,11): error C3668: 'Peon::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(44,7): error C3668: 'Peon::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(46,24): error C3668: 'Peon::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2059: error de sintaxis: '}'
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(39,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,1): warning C4138: '*/' se encontró fuera del comentario
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,2): error C2059: error de sintaxis: '/'
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,8): error C3646: 'alfilB': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,14): error C2059: error de sintaxis: ','
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,22): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "src/Mundo.cpp")
+  
+  Peon.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2059: error de sintaxis: '}'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,1): warning C4138: '*/' se encontró fuera del comentario
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,2): error C2059: error de sintaxis: '/'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Menu.h(5,12): error C2143: error de sintaxis: falta ';' delante de '{'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Menu.h(5,12): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\fichas.h(4,7): error C2011: 'Fichas': nueva definición del tipo 'class'
+  (compilando archivo de origen "src/Peon.cpp")
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(12,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(30,7): error C3668: 'Torre::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(31,7): error C3668: 'Torre::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(32,7): error C3668: 'Torre::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(33,7): error C3668: 'Torre::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(34,7): error C3668: 'Torre::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(35,7): error C3668: 'Torre::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,11): error C3668: 'Torre::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(39,24): error C3668: 'Torre::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(41,7): error C3668: 'Torre::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(10,22): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(27,7): error C3668: 'Reina::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(28,7): error C3668: 'Reina::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(29,7): error C3668: 'Reina::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(30,7): error C3668: 'Reina::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(31,7): error C3668: 'Reina::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(32,7): error C3668: 'Reina::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,11): error C3668: 'Reina::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(36,24): error C3668: 'Reina::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(38,7): error C3668: 'Reina::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,38): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(10,19): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(26,7): error C3668: 'Rey::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(27,7): error C3668: 'Rey::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(28,7): error C3668: 'Rey::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(29,7): error C3668: 'Rey::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(30,7): error C3668: 'Rey::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(31,7): error C3668: 'Rey::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,11): error C3668: 'Rey::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(35,24): error C3668: 'Rey::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(37,7): error C3668: 'Rey::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(7,24): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(23,7): error C3668: 'Caballo::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(24,7): error C3668: 'Caballo::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(25,7): error C3668: 'Caballo::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(26,7): error C3668: 'Caballo::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(27,7): error C3668: 'Caballo::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(31,7): error C3668: 'Caballo::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(35,11): error C3668: 'Caballo::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(41,7): error C3668: 'Caballo::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(43,24): error C3668: 'Caballo::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(36,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,8): error C3646: 'alfilB': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,14): error C2059: error de sintaxis: ','
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,22): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(44,7): error C3646: 'menu': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(44,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(45,21): error C2653: 'Menu': no es un nombre de clase o espacio de nombres
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(45,27): error C2061: error de sintaxis: identificador 'TipoMenu'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(46,22): error C2653: 'Menu': no es un nombre de clase o espacio de nombres
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(46,28): error C2061: error de sintaxis: identificador 'ModoJuego'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(47,23): error C2653: 'Menu': no es un nombre de clase o espacio de nombres
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(47,29): error C2061: error de sintaxis: identificador 'FormaJuego'
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(62,2): error C2653: 'Menu': no es un nombre de clase o espacio de nombres
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(62,18): error C3646: 'getModoJuego': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(62,30): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(62,39): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "src/Peon.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(10,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(11,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(28,5): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(34,15): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(34,33): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(34,2): error C2660: 'glTranslated': la función no acepta 2 argumentos
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1465,25):
+      vea la declaración de 'glTranslated'
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(34,2):
+      al hacer coincidir la lista de argumentos '()'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(59,33): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(59,23): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(60,18): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(60,28): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(65,37): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(65,26): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(66,21): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(66,32): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(66,65): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(66,76): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(66,79): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(72,37): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(72,26): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(73,21): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(73,32): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(73,65): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(73,76): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.cpp(73,79): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+  Raton.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Raton.cpp(38,13): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Raton.cpp(39,14): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Raton.cpp(53,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Raton.cpp(55,22): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  Reina.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7): error C2011: 'Fichas': nueva definición del tipo 'class'
+  (compilando archivo de origen "src/Reina.cpp")
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(12,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(30,7): error C3668: 'Torre::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(31,7): error C3668: 'Torre::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(32,7): error C3668: 'Torre::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(33,7): error C3668: 'Torre::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(34,7): error C3668: 'Torre::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(35,7): error C3668: 'Torre::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,11): error C3668: 'Torre::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(39,24): error C3668: 'Torre::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(41,7): error C3668: 'Torre::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(10,19): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(26,7): error C3668: 'Rey::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(27,7): error C3668: 'Rey::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(28,7): error C3668: 'Rey::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(29,7): error C3668: 'Rey::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(30,7): error C3668: 'Rey::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(31,7): error C3668: 'Rey::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,11): error C3668: 'Rey::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(35,24): error C3668: 'Rey::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(37,7): error C3668: 'Rey::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(7,24): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(23,7): error C3668: 'Caballo::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(24,7): error C3668: 'Caballo::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(25,7): error C3668: 'Caballo::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(26,7): error C3668: 'Caballo::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(27,7): error C3668: 'Caballo::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(31,7): error C3668: 'Caballo::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(35,11): error C3668: 'Caballo::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(41,7): error C3668: 'Caballo::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(43,24): error C3668: 'Caballo::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(36,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(7,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(26,7): error C3668: 'Peon::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(27,7): error C3668: 'Peon::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(28,7): error C3668: 'Peon::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(29,7): error C3668: 'Peon::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(30,7): error C3668: 'Peon::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(34,7): error C3668: 'Peon::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(38,11): error C3668: 'Peon::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(44,7): error C3668: 'Peon::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(46,24): error C3668: 'Peon::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2059: error de sintaxis: '}'
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(39,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,1): warning C4138: '*/' se encontró fuera del comentario
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,2): error C2059: error de sintaxis: '/'
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,8): error C3646: 'alfilB': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,14): error C2059: error de sintaxis: ','
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,22): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "src/Reina.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.cpp(12,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.cpp(13,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.cpp(18,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.cpp(24,15): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.cpp(24,33): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.cpp(24,2): error C2660: 'glTranslated': la función no acepta 2 argumentos
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1465,25):
+      vea la declaración de 'glTranslated'
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.cpp(24,2):
+      al hacer coincidir la lista de argumentos '()'
+  
+  Rey.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7): error C2011: 'Fichas': nueva definición del tipo 'class'
+  (compilando archivo de origen "src/Rey.cpp")
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(12,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(30,7): error C3668: 'Torre::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(31,7): error C3668: 'Torre::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(32,7): error C3668: 'Torre::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(33,7): error C3668: 'Torre::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(34,7): error C3668: 'Torre::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(35,7): error C3668: 'Torre::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,11): error C3668: 'Torre::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(39,24): error C3668: 'Torre::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(41,7): error C3668: 'Torre::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.h(36,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(10,22): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(27,7): error C3668: 'Reina::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(28,7): error C3668: 'Reina::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(29,7): error C3668: 'Reina::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(30,7): error C3668: 'Reina::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(31,7): error C3668: 'Reina::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(32,7): error C3668: 'Reina::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,11): error C3668: 'Reina::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(36,24): error C3668: 'Reina::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(38,7): error C3668: 'Reina::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,38): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(7,24): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(23,7): error C3668: 'Caballo::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(24,7): error C3668: 'Caballo::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(25,7): error C3668: 'Caballo::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(26,7): error C3668: 'Caballo::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(27,7): error C3668: 'Caballo::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(31,7): error C3668: 'Caballo::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(35,11): error C3668: 'Caballo::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(41,7): error C3668: 'Caballo::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(43,24): error C3668: 'Caballo::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(36,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(7,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(26,7): error C3668: 'Peon::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(27,7): error C3668: 'Peon::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(28,7): error C3668: 'Peon::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(29,7): error C3668: 'Peon::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(30,7): error C3668: 'Peon::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(34,7): error C3668: 'Peon::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(38,11): error C3668: 'Peon::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(44,7): error C3668: 'Peon::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(46,24): error C3668: 'Peon::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2059: error de sintaxis: '}'
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(39,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,1): warning C4138: '*/' se encontró fuera del comentario
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,2): error C2059: error de sintaxis: '/'
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,8): error C3646: 'alfilB': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,14): error C2059: error de sintaxis: ','
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,22): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "src/Rey.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(10,2): error C2065: 'posicion_pieza': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(11,2): error C2065: 'posicion_pieza': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(15,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(21,15): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(21,33): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(21,2): error C2660: 'glTranslated': la función no acepta 2 argumentos
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1465,25):
+      vea la declaración de 'glTranslated'
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(21,2):
+      al hacer coincidir la lista de argumentos '()'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(83,59): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(83,38): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(84,33): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(84,54): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(88,38): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(88,59): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(88,102): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(88,123): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(88,125): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(92,38): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(92,59): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(92,102): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(92,123): warning C4244: 'argumento': conversión de 'double' a 'const unsigned __int64'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.cpp(92,125): error C2027: uso del tipo 'Fichas' sin definir
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+  Tablero.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(28,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(29,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(30,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(31,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(51,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(52,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(53,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Tablero.cpp(54,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Torre.cpp
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7): error C2011: 'Fichas': nueva definición del tipo 'class'
+  (compilando archivo de origen "src/Torre.cpp")
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Fichas.h(4,7):
+      vea la declaración de 'Fichas'
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(10,22): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(27,7): error C3668: 'Reina::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(28,7): error C3668: 'Reina::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(29,7): error C3668: 'Reina::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(30,7): error C3668: 'Reina::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(31,7): error C3668: 'Reina::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(32,7): error C3668: 'Reina::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,11): error C3668: 'Reina::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(36,24): error C3668: 'Reina::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(38,7): error C3668: 'Reina::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Reina.h(33,38): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(10,19): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(26,7): error C3668: 'Rey::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(27,7): error C3668: 'Rey::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(28,7): error C3668: 'Rey::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(29,7): error C3668: 'Rey::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(30,7): error C3668: 'Rey::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(31,7): error C3668: 'Rey::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,11): error C3668: 'Rey::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(35,24): error C3668: 'Rey::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(37,7): error C3668: 'Rey::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Rey.h(32,39): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(7,24): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(23,7): error C3668: 'Caballo::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(24,7): error C3668: 'Caballo::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(25,7): error C3668: 'Caballo::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(26,7): error C3668: 'Caballo::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(27,7): error C3668: 'Caballo::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(31,7): error C3668: 'Caballo::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(35,11): error C3668: 'Caballo::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(41,7): error C3668: 'Caballo::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(43,24): error C3668: 'Caballo::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Caballo.h(36,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(7,20): error C2504: 'Fichas': clase base sin definir
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(26,7): error C3668: 'Peon::mueveficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(27,7): error C3668: 'Peon::set_pos_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(28,7): error C3668: 'Peon::dibuja_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(29,7): error C3668: 'Peon::set_color_ficha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(30,7): error C3668: 'Peon::get_color': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(34,7): error C3668: 'Peon::get_haComidoFicha': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(38,11): error C3668: 'Peon::get_pos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(44,7): error C3668: 'Peon::casillaValida': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(46,24): error C3668: 'Peon::get_movimientos_validos': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2059: error de sintaxis: '}'
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(39,10): error C2065: 'posicion_ficha': identificador no declarado
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,1): warning C4138: '*/' se encontró fuera del comentario
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Peon.h(50,2): error C2059: error de sintaxis: '/'
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,8): error C3646: 'alfilB': especificador de invalidación desconocido
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,14): error C2059: error de sintaxis: ','
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Mundo.h(22,22): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "src/Torre.cpp")
+  
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(10,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(10,21): error C2065: 'x': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(11,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(11,21): error C2065: 'y': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(16,2): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(22,15): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(22,33): error C2065: 'posicion_ficha': identificador no declarado
+C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(22,2): error C2660: 'glTranslated': la función no acepta 2 argumentos
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1465,25):
+      vea la declaración de 'glTranslated'
+      C:\Users\julia\OneDrive - Universidad Politécnica de Madrid\Escritorio\AjedrezGitHub\Juego-Ajedrez\Ajedrez\src\Torre.cpp(22,2):
+      al hacer coincidir la lista de argumentos '()'
+  
+  Generando código...

@@ -4,7 +4,7 @@
 #include "ETSIDI.h"
 #include "fichas.h"
 
-class Peon: public Fichas  {     //peon se hereda de pieza
+class Peon : public Fichas {     //peon se hereda de pieza
 private:
 	bool color; // FALSE es negro. TRUE es blanco
 	bool haComidoFicha;
@@ -20,8 +20,8 @@ public:
 		sprite2.setCenter(+0.75, +0.75); //linea para colocar el peon 2
 		sprite2.setSize(1.5, 1.5); //liena para dar la altura al peon2
 		color = true; // Blanco predeterminado
-		
-	
+
+
 	}
 	void mueveficha(double, double) override;
 	void set_pos_ficha(const Vector2D& pos) override;
@@ -45,6 +45,5 @@ public:
 
 	std::vector<Vector2D> get_movimientos_validos(std::vector<std::vector<Fichas*>> control, Vector2D pos, Vector2D reyPos) override;
 
-	}
 };
-*/
+

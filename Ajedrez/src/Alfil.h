@@ -1,35 +1,38 @@
 #pragma once
 #include <vector>
-#include "vector2D.h"
 #include "ETSIDI.h"
-#include "fichas.h"
-/*class Alfil :public Ficha //Declaras la clase Alfil, que hereda de la clase abstracta Pieza. Así reutilizas todo el comportamiento común de las piezas.
-{
-private:
-	bool color;//indica el color de la pieza FALSE= NEGRO Y TRUE=BLANCO 
-	//sabes qué sprite dibujar, a qué jugador pertenece y cómo calcular movimientos
-	bool comido_pieza; //Registra si este alfil ya ha capturado (comido) alguna pieza durante la partida
-	ETSIDI::SpriteSequence sprite{ "imagenes/alfilB.png", 1 }; //imagen del alfil blanco.1 indica que cada secuencia tiene 1 fotograma (no hay animación en bucle)
-	ETSIDI::SpriteSequence sprite2{ "imagenes/alfilN.png", 1 }; //imagen del alfin negro.1 indica que cada secuencia tiene 1 fotograma (no hay animación en bucle)
-public:
-	Alfil() {
-		//constructor por defecto 
-		color = true; //blanco determinado 
-	}
-	void muevepieza(double, double);
-	void dibuja_pieza();
-	void set_pos_pieza(const Vector2D& pos);//Asigna la posición interna (posicion_pieza) de la pieza en el tablero
-	void set_color_pieza(bool c);//Dibuja en pantalla el sprite correspondiente al alfil, eligiendo sprite o sprite2 según color
-	bool get_color() //valor de color (para saber en tiempo de ejecución si es blanca o negra)
-	{
-		return color;
-	}
-	Vector2D get_pos() {
-		return pos_pieza;
-	}
-	bool get_comido_pieza() {
-		return comido_pieza; //Consulta si ya ha capturado alguna pieza.
-	}
+#include "Vector2D.h"
+#include "Fichas.h"
 
+using std::vector;
+
+class Alfil : public Fichas  // heredamos
+{
+    bool color;
+    bool haComidoFicha;
+
+    ETSIDI::SpriteSequence sprite{ "imagenes/ALFIL BLANCO.png", 1 };
+    ETSIDI::SpriteSequence sprite2{ "imagenes/ALFIL NEGRO.png", 1 };
+
+public:
+    Alfil() {
+        sprite.setCenter(+0.75, +0.75);
+        sprite.setSize(1.5, 1.5);
+        sprite2.setCenter(+0.75, +0.75);
+        sprite2.setSize(1.5, 1.5);
+        color = true; // Blanco predeterminado
+    }
+
+    void mueveficha(double, double) override;
+    void set_pos_ficha(const Vector2D& pos) override;
+    void dibuja_ficha() override;
+    void set_color_ficha(bool a) override;    // TRUE = blanco, FALSE = negro
+    bool get_color() override { return color; }
+    bool get_haComidoFicha() override { return haComidoFicha; }
+    Vector2D get_pos() override { return posicion_ficha; }
+
+    bool FichaAhogada(vector<Vector2D> posiciones);
+    std::vector<Vector2D> get_movimientos_validos(std::vector<std::vector<Fichas*>> control, Vector2D pos, Vector2D reyPos) override;
+
+    bool casillaValida(int i, int j, std::vector<std::vector<Fichas*>> control) override;
 };
-*/
