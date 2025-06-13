@@ -1,3 +1,5 @@
+#pragma once
+#define FICHAS_H
 #include "Vector2D.h"
 #include <vector>
 

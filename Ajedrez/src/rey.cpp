@@ -7,8 +7,8 @@
 
 void Rey::mueveficha(double x, double y)
 {
-	posicion_pieza.x = x;
-	posicion_pieza.y = y;
+	posicion_ficha.x = x;
+	posicion_ficha.y = y;
 }
 void Rey::set_pos_ficha(const Vector2D& pos)
 {

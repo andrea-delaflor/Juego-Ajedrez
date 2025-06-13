@@ -5,7 +5,7 @@
 #include "Fichas.h"
 #include <stdio.h>
 
-void Torre::mueveficha(double, double)
+void Torre::mueveficha(double x, double y)
 {
 	posicion_ficha.x = x;
 	posicion_ficha.y = y;

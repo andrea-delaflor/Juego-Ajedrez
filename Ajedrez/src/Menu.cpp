@@ -165,13 +165,8 @@ bool Menu::detectar_click(const Vector2D& pos) {
 			return true;
 		
 		}
-
-
-
-
-
+	return false;
 
 	}
 
-	return false;
-}
+	
